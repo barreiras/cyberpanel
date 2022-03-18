@@ -375,7 +375,7 @@ class backupUtilities:
             #command = f'cp -R /home/{domainName}/public_html {tempStoragePath}/public_html'
 
             # if ProcessUtilities.normalExecutioner(command) == 0:
-            #     raise BaseException(f'Failed to run {command}.')
+            #     raise BaseException(f'Failed to run the copy to backup folder.')
 
             # make_archive(os.path.join(tempStoragePath,"public_html"), 'gztar', os.path.join("/home",domainName,"public_html"))
 
